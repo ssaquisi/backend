@@ -45,8 +45,8 @@
 
                             <!-- Método post y action para el URL (con el alias 'login') -->
                             <form method="post" action="{% url 'login' %}">
-                                <!-- CSRF token -->                                
-                                {% csrf_token %}
+                                    <!-- CSRF token -->                                
+                                    {% csrf_token %}
                                 <h1
                                     class="mb-4 text-xl font-semibold text-gray-700 dark:text-gray-200">
                                     Login
